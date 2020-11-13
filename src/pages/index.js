@@ -2,7 +2,7 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
-import { StackItem, Stack, Section } from "@quarkly/components";
+import { StackItem, Stack, Section, Override } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -61,6 +61,84 @@ export default (() => {
 				<StackItem width="25%" lg-width="50%" sm-width="100%">
 					<Text margin="0px">
 						CDS Documentary Essay Prize and Best Photographer of The Year 2019 by Sony World Photography Awards.
+					</Text>
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
+			<Text
+				as="h1"
+				font="--headline1"
+				md-font="--headline2"
+				max-width="520px"
+				margin="0 auto 5px auto"
+				text-align="center"
+			>
+				We are cute
+			</Text>
+			<Text
+				as="p"
+				color="--grey"
+				max-width="520px"
+				margin="0 auto"
+				text-align="center"
+				font="--lead"
+			>
+				The smartest people work every day to provide the best service and to make our clients happy
+			</Text>
+			<Stack margin-top="40px">
+				<StackItem width="25%" lg-width="50%" sm-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1605198678841-9826933ff23c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&h=2000) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						CEO
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						Nathan K. Joe
+					</Text>
+					<Text as="p" margin="20px 0 5px 0">
+						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1601758004584-903c2a9a1abc?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						Developer
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						David R. Lema
+					</Text>
+					<Text as="p" margin="20px 0 5px 0">
+						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1605167663983-d527cf63ba35?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&h=2000) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						Marketing
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						Janet E. Morey
+					</Text>
+					<Text as="p" margin="20px 0 5px 0">
+						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
+					</Text>
+				</StackItem>
+				<StackItem width="25%" lg-width="50%" sm-width="100%" sm-margin-top="24px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Box height="0" margin="0 0 20px 0" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80) 50% 0/cover no-repeat" />
+					<Text color="--grey" margin="0">
+						Designer
+						<br />
+					</Text>
+					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
+						Claire R. Peery
+						<br />
+					</Text>
+					<Text as="p" margin="20px 0 5px 0">
+						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
 					</Text>
 				</StackItem>
 			</Stack>
